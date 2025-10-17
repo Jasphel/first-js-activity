@@ -193,10 +193,10 @@ function showScore() {
     let feedback = "";
 
     if (percentage >= 80) feedback = "Outstanding! You're a JavaScript wizard. 🌟";
-    else if (percentage >= 60) feedback = "Well done! Keep practicing those concepts. 👍";
+    else if (percentage >= 60) feedback = "Well done! More practice for those concepts. 👍";
     else if (percentage === 50) feedback = "Soooo close! Almost is never enough.😢";
     else if (percentage === 0) feedback = "It's fine to fail. Don't be like me, a failure. ☹";
-    else feedback = "Good start. Review your notes again! 📚";
+    else feedback = "Bad start. Review your notes again! 📚";
 
     document.getElementById('feedback').textContent = feedback;
 
@@ -268,3 +268,4 @@ style.textContent = `
   100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
 }`;
 document.head.appendChild(style);
+
