@@ -125,7 +125,7 @@ to { opacity: 1; transform: scale(1); }
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #FB4040, #43F8FF);
     margin: 5px auto;
     display: flex;
     flex-direction: column;
@@ -167,3 +167,4 @@ to { opacity: 1; transform: scale(1); }
 }
 
 /*searched for desktop reponsive layout*/
+
